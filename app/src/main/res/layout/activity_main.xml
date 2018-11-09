@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/pantalla"
+            android:layout_width="346dp"
+            android:layout_height="93dp"
+            android:background="@color/pantalla"
+            android:gravity="clip_horizontal|right|bottom"
+            android:text="0"
+            android:textSize="36sp"
+            android:layout_weight="1"
+            android:layout_margin="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/botonLog"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="Log"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:background="@color/colorBotones2"
+            android:layout_margin="5sp"
+            />
+
+        <Button
+            android:id="@+id/botonPotencia"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="X^2"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:background="@color/colorBotones2"
+            android:layout_margin="5sp"/>
+
+        <Button
+            android:id="@+id/botonBorrar"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:background="@color/redButton"
+            android:text="DEL"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:layout_margin="5sp"/>
+
+        <Button
+            android:id="@+id/botonMas"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="+"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:background="@color/colorBotonesOperaciones"
+            android:layout_margin="5sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/boton7"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="7"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:layout_margin="5sp"/>
+
+        <Button
+            android:id="@+id/boton8"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="8"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:layout_margin="5sp"/>
+
+        <Button
+            android:id="@+id/boton9"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="9"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:layout_margin="5sp"/>
+
+        <Button
+            android:id="@+id/botonMenos"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="-"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:background="@color/colorBotonesOperaciones"
+            android:layout_margin="5sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/boton4"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="4"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:layout_margin="5sp"/>
+
+        <Button
+            android:id="@+id/boton5"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="5"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:layout_margin="5sp"/>
+
+        <Button
+            android:id="@+id/boton6"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="6"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:layout_margin="5sp"/>
+
+        <Button
+            android:id="@+id/botonMultiplicacion"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="*"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:background="@color/colorBotonesOperaciones"
+            android:layout_margin="5sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/boton1"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="1"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:layout_margin="5sp"/>
+
+        <Button
+            android:id="@+id/boton2"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="2"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:layout_margin="5sp"/>
+
+        <Button
+            android:id="@+id/boton3"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="3"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:layout_margin="5sp"/>
+
+        <Button
+            android:id="@+id/botonDivision"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="/"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:background="@color/colorBotonesOperaciones"
+            android:layout_margin="5sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/boton0"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="0"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:layout_margin="5sp"/>
+
+        <Button
+            android:id="@+id/botonPunto"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="."
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:layout_margin="5sp"/>
+
+        <Button
+            android:id="@+id/botonMasMenos"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:text="+/-"
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:layout_margin="5sp"/>
+
+        <Button
+            android:id="@+id/botonIgual"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
+            android:background="@color/redButton"
+            android:text="="
+            android:textSize="26sp"
+            android:layout_weight="1"
+            android:layout_margin="5sp"/>
+    </LinearLayout>
+
+</LinearLayout>
